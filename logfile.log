@@ -1,0 +1,85 @@
+ERROR:api.core:HTTPSConnectionPool(host='api.thedogapi.com', port=443): Max retries exceeded with url: /v1/breeds/search?q=shiba (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F2275FDD90>: Failed to resolve 'api.thedogapi.com' ([Errno 11001] getaddrinfo failed)"))
+2024-04-08 19:36:09,904 :ERROR : api.core :HTTPSConnectionPool(host='api.thedogapi.com', port=443): Max retries exceeded with url: /v1/breeds/search?q=shiba (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000022D1C72D8B0>: Failed to resolve 'api.thedogapi.com' ([Errno 11001] getaddrinfo failed)"))
+2024-04-09 15:38:18,847 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:38:44,416 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:38:58,955 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:40:02,927 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:41:04,875 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:41:12,732 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:41:49,149 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 15:43:58,568 :ERROR : api.core :ERROR - Parameter 'query_str' should be of Type Str
+2024-04-09 18:07:39,845 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-09 22:44:25,398 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-09 22:44:55,590 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-09 22:47:35,609 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-09 22:47:55,430 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-09 22:48:08,230 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:16:48,408 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:18:32,226 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:19:35,135 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:20:14,890 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:20:48,492 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:23:17,683 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:39:01,762 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:39:10,464 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:40:48,555 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:41:11,039 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:42:17,281 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:42:18,061 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-10 08:42:26,314 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 08:42:27,187 :INFO : tests.conftest :test_dog_api.py::test_create_favourite (call) Passed
+2024-04-10 17:51:09,680 :ERROR : api.core :HTTPSConnectionPool(host='api.thedogapi.com', port=443): Read timed out. (read timeout=30)
+2024-04-10 18:02:51,074 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 18:12:59,067 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 18:12:59,737 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-10 18:16:52,495 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 18:16:53,154 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-10 18:22:22,563 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 18:22:41,561 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 18:22:57,592 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-10 18:22:58,235 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 10:31:34,298 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-11 10:31:34,986 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 16:13:20,915 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-11 16:13:21,663 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 17:57:12,512 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-11 17:57:13,216 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 18:02:25,129 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records (call) Passed
+2024-04-11 18:02:25,950 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 18:05:39,774 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 18:07:41,082 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 18:13:04,238 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 18:14:27,146 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 18:15:53,206 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 18:15:54,094 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 19:18:23,067 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 19:44:37,155 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 19:46:40,798 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 19:49:27,697 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 19:51:15,778 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 19:51:18,103 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 19:51:55,218 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 19:54:36,786 :ERROR : api.core :<class 'requests.exceptions.InvalidURL'>
+2024-04-11 19:58:59,940 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:15:47,439 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:15:49,215 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 20:15:58,441 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:25:37,050 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:25:39,554 :ERROR : api.core :400 Client Error: Bad Request for url: https://api.thedogapi.com/v1/favourites
+2024-04-11 20:26:09,902 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:26:56,904 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:28:42,626 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-11 20:33:37,495 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:29:07,243 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:29:26,539 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:30:22,952 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:31:19,181 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:31:38,975 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:31:50,035 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 07:32:14,269 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 08:20:01,315 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 08:20:04,414 :INFO : tests.conftest :test_dog_api.py::test_create_favourite (call) Passed
+2024-04-12 08:20:23,809 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 08:20:26,277 :INFO : tests.conftest :test_dog_api.py::test_create_favourite (call) Passed
+2024-04-12 08:41:01,564 :INFO : tests.conftest :test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+2024-04-12 08:41:04,104 :INFO : tests.conftest :test_dog_api.py::test_create_favourite (call) Passed

@@ -1,0 +1,2 @@
+INFO     tests.conftest:test_dog_api.py:48 test_dog_api.py::test_search_breeds_zero_records[getdata_search_breeds_zero_records0] (call) Passed
+INFO     tests.conftest:test_dog_api.py:70 test_dog_api.py::test_create_favourite (call) Passed
